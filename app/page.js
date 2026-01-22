@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 
 const demos = [
@@ -59,8 +61,6 @@ export default function Home() {
                   cursor: 'pointer',
                   display: 'block',
                 }}
-                onMouseOver={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.15)'}
-                onMouseOut={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.1)'}
               >
                 <div style={{ fontSize: '2rem', marginBottom: '10px' }}>
                   {biz.type}
